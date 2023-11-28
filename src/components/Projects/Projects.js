@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import carzone from "../../Assets/Projects/carzone.png";
 import ecommerce from "../../Assets/Projects/ecommerce.png";
 import foodonline from "../../Assets/Projects/foodonline.png";
-
+import adult from '../../Assets/Projects/adult.jpeg'; 
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -50,12 +50,12 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={carzone}
+              imgPath={adult}
               isBlog={false}
-              title="CarZone"
-              description="A Place to Sell Cars And get Services for Cars like repairing and so on . Developed Using Django "
-              ghLink="https://github.com/bishal189/django-car"
-              demoLink="http://navalta111.pythonanywhere.com/"
+              title="Adult Content Shop"
+              description="A Adult Ecommerce Site for buying Adult Movies with Multilingual support supporting english and german language."
+              ghLink="https://github.com/bishal189/Moviewebsites"
+              demoLink="http://sandesh1.pythonanywhere.com/"
             />
           </Col>
 
